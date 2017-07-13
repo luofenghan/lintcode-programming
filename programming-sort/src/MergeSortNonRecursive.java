@@ -1,7 +1,18 @@
 import org.junit.Assert;
 
 /**
- * Created by cwc on 2017/5/12 0012.
+ * <pre>
+ *     一、排序思想
+ *          将数组中的相邻元素两两配对，构成N/2个长度为2的排好序的子数组，
+ *          然后再将他们排序成长度为4的子数组段，如此下去，直至整个数组排好序。
+ *     二、时间复杂度
+ *          1. 【最优】时间复杂度：O(NlogN)
+ *          2. 【最差】时间复杂度：O(NlogN)
+ *          3. 【平均】时间复杂度：O(NlogN)
+ *     三、空间复杂度：O(N)
+ *     四、稳定性：稳定
+ *     五、结论
+ * </pre>
  */
 public class MergeSortNonRecursive {
 
